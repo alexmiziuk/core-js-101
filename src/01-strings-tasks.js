@@ -36,11 +36,12 @@ function concatenateStrings(value1, value2) {
  *   ''      => 0
  */
 function getStringLength(value) {
-  for (let i = 0; i <= value.length; i++) {
+/*   for (let i = 0; i <= value.length; i += 1) {
     if (i === value.length) {
       return i;
     }
-  }
+  } */
+  return value.length;
 }
 
 /**
